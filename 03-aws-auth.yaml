@@ -9,7 +9,7 @@ data:
   mapUsers: |
     - groups:
       - roboshop-trainee
-      userarn: arn:aws:iam::111122223333:user/admin
+      - userarn: arn:aws:iam::066971257572:user/suresh
       username: suresh
 kind: ConfigMap
 metadata:
