@@ -13,7 +13,7 @@ kind: ClusterRole
 metadata:
   namespace: roboshop-cluster-reader
 rules:
-- apiGroups: ["*"] #indicates the core API group
+- apiGroups: [""] #indicates the core API group
   resources: ["persistentvolumes"]
   verbs: ["get", "watch", "list"]
 - apiGroups: ["storage.k8s.io"] #indicates the core API group
